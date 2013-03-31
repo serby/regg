@@ -1,7 +1,7 @@
 # regg - Registry Pattern for JavaScript
 
 **regg** helps keep your system decoupled by providing a central location where your
-application information can be found by other parts of you application.
+application information can be found by other parts of your application.
 
 ## Installation
 
