@@ -13,7 +13,7 @@ Register your functions, objects, string etc using register().
 Once registered with the service locator there is no way to change it.
 
 ```js
-var regg = require('regg')
+var regg = require('regg')()
 var foo = 'bar'
 regg.register('foobar', foo)
 
