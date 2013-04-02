@@ -1,7 +1,7 @@
 {
 	"name": "regg",
 	"description": "regg helps keep your system decoupled by providing a central location where your application information can be found by other parts of your application.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Paul Serby <paul@serby.net>",
 	"contributors": [
 		{ "name": "Paul Serby", "email": "paul@serby.net" }

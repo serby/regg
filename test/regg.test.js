@@ -18,6 +18,11 @@ describe('regg', function () {
         }).should.throwError('You must provide a valid name for this entry.')
       })
 
+      it('should return regg', function () {
+        var registry = regg()
+        registry.register('foo', 'bar').register.should.a('function')
+      })
+
       it('should throw error if no entry is given', function () {
         var registry = regg();
         (function () {

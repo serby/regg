@@ -9,6 +9,11 @@
 module.exports = function regg() {
 
   var registry = {}
+    , self =
+      { register: register
+      , list: list
+      , get: get
+      }
 
   /**
    * Registers a entry and make it read only
@@ -31,7 +36,7 @@ module.exports = function regg() {
 
     registry[name] = entry
 
-    return registry
+    return self
   }
 
   function get(name) {
@@ -45,9 +50,5 @@ module.exports = function regg() {
     return Object.keys(registry)
   }
 
-  return (
-    { register: register
-    , list: list
-    , get: get
-    })
+  return self
 }
