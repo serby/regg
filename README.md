@@ -4,8 +4,8 @@
 
 [![build status](https://api.travis-ci.org/serby/regg.png)](http://travis-ci.org/serby/regg)
 
-**regg** helps keep your system decoupled by providing a central location where your
-application information can be found by other parts of your application.
+**regg** helps keep your system decoupled by providing a central location where
+your application information can be found by other parts of your application.
 
 ## Installation
 
