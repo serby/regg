@@ -6,7 +6,7 @@ describe('regg', function () {
 
     it('should return a object with a register function', function () {
       var registry = regg()
-      registry.register.should.be.a('function')
+      registry.register.should.be.type('function')
     })
 
     describe('#register()', function () {
@@ -20,7 +20,7 @@ describe('regg', function () {
 
       it('should return regg', function () {
         var registry = regg()
-        registry.register('foo', 'bar').register.should.a('function')
+        registry.register('foo', 'bar').register.should.be.type('function')
       })
 
       it('should throw error if no entry is given', function () {
@@ -48,7 +48,7 @@ describe('regg', function () {
           }
         })
 
-        registry.get('createDog').should.be.a('function')
+        registry.get('createDog').should.be.type('function')
         registry.get('createDog')().name.should.equal('Dog')
       })
 

@@ -40,6 +40,7 @@ module.exports = function regg() {
   }
 
   function get(name) {
+
     if (!registry.hasOwnProperty(name)) {
       throw new Error('No such entry \'' + name + '\'')
     }
