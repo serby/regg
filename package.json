@@ -9,8 +9,8 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"mocha": "1",
-		"should": "2"
+		"mocha": "^6.1.4",
+		"should": "^13.2.3"
 	},
 	"keywords": ["service locator", "registry pattern"],
 	"repository": "git://github.com/serby/regg",
